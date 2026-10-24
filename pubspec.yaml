@@ -1,7 +1,7 @@
 name: neonneedlerun
 description: "Neon Needle Run - thread a needle through gaps"
 publish_to: 'none'
-version: 1.0.0+2
+version: 1.0.0+3
 
 environment:
   sdk: ^3.13.5
@@ -39,3 +39,7 @@ flutter:
     - assets/sfx/win.wav
     - assets/sfx/lose.wav
     - assets/sfx/music_loop.wav
+  fonts:
+    - family: AlfaSlabOne
+      fonts:
+        - asset: assets/fonts/AlfaSlabOne-Regular.ttf
